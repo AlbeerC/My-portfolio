@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+    font-family: $textFont;
+    background-color: $bgDark;
+}
+h1, h2, h3 {
+    font-family: $titleFont;
+    font-weight: bold;
+}
+.section-title {
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $lightBlue;
+
+    @include responsive(tablet) {
+        font-size: 4rem;
+    }
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}

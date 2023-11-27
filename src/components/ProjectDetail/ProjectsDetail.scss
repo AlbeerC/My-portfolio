@@ -1,0 +1,103 @@
+@import '../../scss/variables';
+
+.project {
+    padding: 5rem 8rem;
+    background-color: $bgDark;
+    color: #ffffff;
+
+    @include responsive(pc) {
+        padding: 5rem 0;
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+
+        @include responsive(pc) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 3rem;
+        }
+
+        img {
+            width: 70rem;
+            height: auto;
+            border-radius: 1rem;
+
+            @include responsive(pc) {
+                width: 100%;
+            }
+        }
+
+        .texts {
+            color: #ffffff;
+
+            h3 {
+                font-size: 4rem;
+                color: $lightBlue;
+
+                @include responsive(tablet) {
+                    font-size: 2.5rem;
+                }
+            }
+            
+            p {
+                padding: 3rem 0;
+                font-size: 2.5rem;
+
+                @include responsive(tablet) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            a {
+                background-color: #000000;
+                color: $lightBlue;
+                border: 1px solid $lightBlue;
+                font-family: $titleFont;
+                text-transform: uppercase;
+                padding: 1rem 4rem;
+                cursor: pointer;
+                border-radius: 1rem;
+                font-weight: bold;
+                font-size: 2rem;
+
+                &:hover {
+                    background-color: $lightBlue;
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        padding-top: 3rem;
+
+        p {
+            padding: 1rem 0;
+            font-size: 2rem;
+
+            @include responsive(tablet) {
+                font-size: 1.5rem;
+            }
+
+            span {
+                color: $lightBlue;
+            }
+        }
+
+        h4 {
+            font-size: 3rem;
+            padding: 1rem 0;
+            color: $lightBlue;
+
+            @include responsive(tablet) {
+                font-size: 2rem;
+            }
+        }
+    }
+}

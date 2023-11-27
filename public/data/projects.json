@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "img": "../src/assets/bz.png",
+        "title": "BasketZone",
+        "subtitle": "E-commerce de camisetas de basquet",
+        "detail": "Proyecto de e-commerce especializado en camisetas de baloncesto que desarrollé como parte de mi práctica en web con React JS.",
+        "url": "https://basket-zone.vercel.app",
+        "tec1": "React JS como el marco principal para la interfaz de usuario y gestión de componentes.",
+        "tec2": "Firebase: Hice uso de Firestore para el manejo del stock de productos y Authentication para el log in / sign in.",
+        "tec3": "Context API: Implementé Context para manejar la lógica del carrito de compras y la lista de favoritos." 
+    },
+    {
+        "id": 2,
+        "img": "../src/assets/gamershop.png",
+        "title": "GamerShop",
+        "subtitle": "E-commerce de juegos de PlayStation 4",
+        "detail": "Sitio web de e-commerce desarrollado como proyecto final de curso de React JS",
+        "url": "https://gamershop.vercel.app",
+        "tec1": "React JS como el marco principal para la interfaz de usuario y gestión de componentes.",
+        "tec2": "Firebase: Hice uso de Firestore para el manejo del stock de productos y las ordenes de compra.",
+        "tec3": "Context API: Implementé Context para manejar la lógica del carrito de compras y notificaciones." 
+    },
+    {
+        "id": 3,
+        "img": "../src/assets/coinview.png",
+        "title": "CoinView",
+        "subtitle": "Mercado de criptomonedas a tiempo real",
+        "detail": "Proyecto desarrollado con React JS usando la api de CoinGecko para obtener los datos de las monedas",
+        "url": "https://coinview-albeerc.vercel.app",
+        "tec1": "React JS como el marco principal para la interfaz de usuario y gestión de componentes.",
+        "tec2": "Estados, Efectos y parámetros para la barra de búsqueda, la lista de criptos y el detalle de cada una.",
+        "tec3": "Sass como pre-procesador de CSS para los estilos del sitio." 
+    },
+    {
+        "id": 4,
+        "img": "../src/assets/tiagopzk.png",
+        "title": "Tiago PZK",
+        "subtitle": "Sitio web del cantante Tiago PZK",
+        "detail": "Proyecto realizado como práctica de Javascript replicando el sitio web oficial del cantante",
+        "url": "https://tiago-pzk.vercel.app",
+        "tec1": "Javascript para darle dinamismo al sitio",
+        "tec2": "Utilizé un archivo en formato JSON como simulador de un Back End para el control de las fechas de los shows.",
+        "tec3": "Implementé Sass como pre-procesador de CSS para los estilos del sitio." 
+    },
+    {
+        "id": 5,
+        "img": "../src/assets/sneakers.png",
+        "title": "Sneakers ARG",
+        "subtitle": "E-commerce de zapatillas deportivas",
+        "detail": "Sitio web de e-commerce desarrollado como proyecto final de curso de JavaScript",
+        "url": "https://albeerc.github.io/Proyecto-Final-JS",
+        "tec1": "Javascript para la lógica del sitio, como el carrito de compras",
+        "tec2": "LocalStorage y SessionStorage para almacenar los productos que se guarden en el carrito",
+        "tec3": "Librería externa para el slider de productos" 
+    }
+]
