@@ -4,6 +4,7 @@ import './App.scss'
 import Navbar from './components/Navbar/Navbar'
 import MainLayout from './components/MainLayout/MainLayout'
 import ProjectsContainer from './components/ProjectsContainer/ProjectsContainer'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<MainLayout /> }/>
           <Route path='/project/:id' element={<ProjectsContainer /> }/>
         </Routes>
+        <Footer />
     </BrowserRouter>
   )
 }

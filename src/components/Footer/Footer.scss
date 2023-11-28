@@ -1,0 +1,17 @@
+@import '../../scss/variables';
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 8rem 0 8rem;
+    color: #ffffff;
+    font-size: 2rem;
+
+    @include responsive(tablet) {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem 0;
+        text-align: center;
+    }
+} 
