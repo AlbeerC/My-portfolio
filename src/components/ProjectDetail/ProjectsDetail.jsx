@@ -6,7 +6,7 @@ function ProjectsList ( {data} ) {
     return (
         <section className="project">
             <div className="top">
-                <img src={data.img} alt="" />
+                <img src={data.img} alt={data.title} />
                 <div className="texts">
                     <h3>{data.title}</h3>
                     <p>{data.subtitle}</p>

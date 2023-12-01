@@ -4,6 +4,7 @@
     padding: 5rem 8rem;
     background-color: $bgDark;
     color: #ffffff;
+    min-height: 80vh;
 
     @include responsive(pc) {
         padding: 5rem 0;
@@ -14,7 +15,6 @@
     .top {
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 5rem;
 
         @include responsive(pc) {

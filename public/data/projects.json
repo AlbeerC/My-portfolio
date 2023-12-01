@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "../src/assets/bz.png",
+        "img": "/images/bz.png",
         "title": "BasketZone",
         "subtitle": "E-commerce de camisetas de basquet",
         "detail": "Proyecto de e-commerce especializado en camisetas de baloncesto que desarrollé como parte de mi práctica en web con React JS.",
@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "img": "../src/assets/gamershop.png",
+        "img": "/images/gamershop.png",
         "title": "GamerShop",
         "subtitle": "E-commerce de juegos de PlayStation 4",
         "detail": "Sitio web de e-commerce desarrollado como proyecto final de curso de React JS",
@@ -23,7 +23,7 @@
     },
     {
         "id": 3,
-        "img": "../src/assets/coinview.png",
+        "img": "/images/coinview.png",
         "title": "CoinView",
         "subtitle": "Mercado de criptomonedas a tiempo real",
         "detail": "Proyecto desarrollado con React JS usando la api de CoinGecko para obtener los datos de las monedas",
@@ -34,7 +34,7 @@
     },
     {
         "id": 4,
-        "img": "../src/assets/tiagopzk.png",
+        "img": "/images/tiagopzk.png",
         "title": "Tiago PZK",
         "subtitle": "Sitio web del cantante Tiago PZK",
         "detail": "Proyecto realizado como práctica de Javascript replicando el sitio web oficial del cantante",
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "img": "../src/assets/sneakers.png",
+        "img": "/images/sneakers.png",
         "title": "Sneakers ARG",
         "subtitle": "E-commerce de zapatillas deportivas",
         "detail": "Sitio web de e-commerce desarrollado como proyecto final de curso de JavaScript",

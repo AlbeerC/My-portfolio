@@ -19,6 +19,11 @@ import slider2 from '../../assets/gamershop.png'
 import slider3 from '../../assets/coinview.png'
 import slider4 from '../../assets/tiagopzk.png'
 import slider5 from '../../assets/sneakers.png'
+import slider1mobile from '../../assets/bzmobile.png'
+import slider2mobile from '../../assets/gamershopmobile.png'
+import slider3mobile from '../../assets/coinviewmobile.png'
+import slider4mobile from '../../assets/tiagopzkmobile.png'
+import slider5mobile from '../../assets/sneakersmobile.png'
 
 function Slider() {
   return (
@@ -32,31 +37,46 @@ function Slider() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <img src={slider1} alt="" />
+            <picture>
+              <source media="(min-width: 768px)" srcSet={slider1} />
+              <img src={slider1mobile} alt="image of my project basketzone" />
+            </picture>
             <span>01</span>
             <Link to='project/1'>Ver info</Link>
         </SwiperSlide>
 
         <SwiperSlide>
-            <img src={slider2} alt="" />
+            <picture>
+              <source media="(min-width: 768px)" srcSet={slider2} />
+              <img src={slider2mobile} alt="image of my project gamershop" />
+            </picture>
             <span>02</span>
             <Link to='project/2'>Ver info</Link>
         </SwiperSlide>
 
         <SwiperSlide>
-            <img src={slider3} alt="" />
+            <picture>
+              <source media="(min-width: 768px)" srcSet={slider3} />
+              <img src={slider3mobile} alt="image of my project coinview" />
+            </picture>
             <span>03</span>
             <Link to='project/3'>Ver info</Link>
         </SwiperSlide>
 
         <SwiperSlide>
-            <img src={slider4} alt="" />
+            <picture>
+              <source media="(min-width: 768px)" srcSet={slider4} />
+              <img src={slider4mobile} alt="image of my project tiagopzk" />
+            </picture>
             <span>04</span>
             <Link to='project/4'>Ver info</Link>
         </SwiperSlide>
 
         <SwiperSlide>
-            <img src={slider5} alt="" />
+            <picture>
+              <source media="(min-width: 768px)" srcSet={slider5} />
+              <img src={slider5mobile} alt="image of my project sneakers arg" />
+            </picture>
             <span>05</span>
             <Link to='project/5'>Ver info</Link>
         </SwiperSlide>

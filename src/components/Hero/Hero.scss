@@ -130,6 +130,10 @@
         margin: auto;
         height: 10rem;
         width: auto;
+
+        @include responsive(tablet) {
+            top: 84vh;
+        }
     }
 }
 
