@@ -18,10 +18,10 @@ function Navbar () {
             </div>
             <nav className={showMenu ? 'show' : 'hide'}>
                 <ul>
-                    <li><Link className='active'>Inicio</Link></li>
-                    <li><Link>Sobre mi</Link></li>
-                    <li><Link>Proyectos</Link></li>
-                    <li><Link>Contacto</Link></li>
+                    <li><a href='#home' className='active'>Inicio</a></li>
+                    <li><a href='#aboutme'>Sobre mi</a></li>
+                    <li><a href='#projects'>Proyectos</a></li>
+                    <li><a href='#contact'>Contacto</a></li>
                 </ul>
             </nav>
         </header>

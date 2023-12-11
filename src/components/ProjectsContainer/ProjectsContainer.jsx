@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react'
 import ProjectsDetail from '../ProjectDetail/ProjectsDetail'
 import { useParams } from 'react-router-dom'
+import Loading from '../Loading/Loading'
 
 function ProjectsContainer () {
 
     const [data, setData] = useState()
     const [loading, setLoading] = useState(true)
     const { id } = useParams()
+
 
     useEffect(() => {
         fetch("/data/projects.json")
@@ -19,7 +21,7 @@ function ProjectsContainer () {
             .finally(() => setLoading(false))
     }, [id])
 
-    if (loading) { return (<h1>Loading</h1>) }
+    if (loading) { return <Loading /> }
 
 
     return (

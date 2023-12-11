@@ -7,7 +7,7 @@ import { IoLogoJavascript } from "react-icons/io";
 function About () {
 
     return (
-        <section className="about" id='about'>
+        <section className="about" id='aboutme'>
             <h2 className='section-title'>Sobre mi</h2>
             <p>Mi nombre es Alberto Caminos, tengo 20 años y soy de Buenos Aires, Argentina. Estudio hace más de un año Desarrollo Frontend. Busco constantemente la mejor experiencia del usuario, enfocándome en cada detalle para lograr soluciones intuitivas y efectivas</p>
             <article className='technologies'>

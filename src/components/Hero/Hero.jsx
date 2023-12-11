@@ -7,7 +7,7 @@ import scrollDown from '../../assets/scrolldown.gif'
 function Hero () {
 
     return (
-        <section className="hero">
+        <section className="hero" id='home'>
             <article className="left">
                 <div className="top">
                     <div className="titles">

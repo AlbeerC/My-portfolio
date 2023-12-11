@@ -4,7 +4,7 @@ import { FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 function Contact () {
 
     return (
-        <section className="contact">
+        <section className="contact" id='contact'>
             <h2 className='section-title'>Contactame</h2>
             <h3>Transformando ideas en realidad: comencemos a colaborar.</h3>
             <div className="cards">
