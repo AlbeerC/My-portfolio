@@ -16,9 +16,7 @@ function ProjectsList ( {data} ) {
             <div className="bottom">
                 <p>{data.detail}</p>
                 <h4>Tecnologías utilizadas:</h4>
-                <p>{data.tec1}</p>
-                <p>{data.tec2}</p>
-                <p>{data.tec3}</p>
+                <p>{data.tecs}</p>
             </div>
         </section>
     )

@@ -96,6 +96,10 @@
                 font-weight: bold;
                 text-transform: uppercase;
 
+                a {
+                    color: #000000;
+                }
+
                 &:hover {
                     animation: none;
                 }

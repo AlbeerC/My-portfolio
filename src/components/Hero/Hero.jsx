@@ -18,7 +18,7 @@ function Hero () {
                 </div>
                 <div className="bottom">
                     <h4>Desarrollador Front-end</h4>
-                    <button>Ver proyectos</button>
+                    <button><a href='#projects'>Ver proyectos</a></button>
                 </div>
             </article>
 

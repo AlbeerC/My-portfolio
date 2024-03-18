@@ -9,7 +9,7 @@ function About () {
     return (
         <section className="about" id='aboutme'>
             <h2 className='section-title'>Sobre mi</h2>
-            <p>Mi nombre es Alberto Caminos, tengo 20 años y soy de Buenos Aires, Argentina. Estudio hace más de un año Desarrollo Frontend. Busco constantemente la mejor experiencia del usuario, enfocándome en cada detalle para lograr soluciones intuitivas y efectivas</p>
+            <p>Mi nombre es Alberto Caminos, tengo 21 años y soy de Buenos Aires, Argentina. Estudio hace más de un año Desarrollo Frontend. Busco constantemente la mejor experiencia del usuario, enfocándome en cada detalle para lograr soluciones intuitivas y efectivas</p>
             <article className='technologies'>
                 <h3>Tecnologías que uso</h3>
                 <div className='list'>

@@ -81,6 +81,7 @@
         p {
             padding: 1rem 0;
             font-size: 2rem;
+            line-height: 3rem;
 
             @include responsive(tablet) {
                 font-size: 1.5rem;
