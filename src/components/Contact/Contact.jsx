@@ -11,7 +11,7 @@ function Contact () {
                 <div className="card">
                     <FaEnvelope />
                     <h4>E-mail</h4>
-                    <p>albeerc@gmail.com</p>
+                    <p>caminosalbertodev@gmail.com</p>
                 </div>
                 <div className="card">
                     <FaLinkedin />

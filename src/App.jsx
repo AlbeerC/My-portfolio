@@ -3,7 +3,7 @@ import './App.scss'
 // Components
 import Navbar from './components/Navbar/Navbar'
 import MainLayout from './components/MainLayout/MainLayout'
-import ProjectsContainer from './components/ProjectsContainer/ProjectsContainer'
+import ProjectsDetailContainer from './components/ProjectsDetailContainer/ProjectsDetailContainer'
 import Footer from './components/Footer/Footer'
 import NotFound from './components/NotFound/NotFound'
 
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<MainLayout /> } />
-          <Route path='/project/:id' element={<ProjectsContainer /> }/>
+          <Route path='/project/:id' element={<ProjectsDetailContainer /> }/>
           <Route path='*' element={<NotFound />}/>
         </Routes>
         <Footer />

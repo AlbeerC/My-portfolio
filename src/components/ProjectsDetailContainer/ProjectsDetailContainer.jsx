@@ -3,7 +3,7 @@ import ProjectsDetail from '../ProjectDetail/ProjectsDetail'
 import { useParams } from 'react-router-dom'
 import Loading from '../Loading/Loading'
 
-function ProjectsContainer () {
+function ProjectsDetailContainer () {
 
     const [data, setData] = useState()
     const [loading, setLoading] = useState(true)
@@ -23,12 +23,11 @@ function ProjectsContainer () {
 
     if (loading) { return <Loading /> }
 
-
     return (
         <>
-        <ProjectsDetail data={data}/>
+            <ProjectsDetail data={data}/>
         </>
     )
 }
 
-export default ProjectsContainer
+export default ProjectsDetailContainer
