@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "img": "/images/tvtrack.png",
+        "imgmobile": "/images/tvtrackmobile.png",
+        "title": "TV Track",
+        "subtitle": "Aplicación de películas y series",
+        "url": "https://tv-track-24.web.app",
+        "description": "Aplicación donde los usuarios podrán ingresar con su cuenta y llevar un registro de las películas y series que hayan visto o las que quieran ver a continuación. Desarrollado Con React JS para el front, la API de TMDB para todos los datos de las películas y series, y Firestore para la autenticación de usuarios y las listas."
+    },
+    {
+        "id": 2,
         "img": "/images/bz.png",
         "imgmobile": "/images/bzmobile.png",
         "title": "BasketZone",
@@ -9,7 +18,7 @@
         "description": "E-commerce de camisetas de básquet desarrollado con React JS para el front y Firebase para el back. El sitio cuenta con autenticación de usuarios, carrito de compras, lista de favoritos, y división de camisetas por categorías. Usé Firestore Database para manejar toda la lógica del listado y filtrado de productos y Storage para almacenar las imágenes de cada producto"
     },
     {
-        "id": 2,
+        "id": 3,
         "img": "/images/chatapp.png",
         "title": "Chat App",
         "imgmobile": "/images/chatappmobile.png",
@@ -18,7 +27,7 @@
         "description": "Chat a tiempo real desarrollado con React JS para el front y Firebase para el back. La prioridad en este proyecto fue la interactividad entre usuarios. Utilicé los servicios Auth y Firestore database de Firebase para la autenticación de usuarios y el almacenamiento y lógica de los mensajes. Los usuarios pueden registrarse o loguearse para interactuar con otros usuarios, enviar, editar y borrar mensajes."
     },
     {
-        "id": 3,
+        "id": 4,
         "img": "/images/coinview.png",
         "imgmobile": "/images/coinviewmobile.png",
         "title": "CoinView",
@@ -27,21 +36,13 @@
         "description": "Mercado de criptomonedas a tiempo real desarrollado con React JS para el front y la API de CoinGecko para traer toda la información de cada moneda. El sitio cuenta con una tabla de 100 criptomonedas con información básica, y cada una de ellas tiene un detalle donde se podrán ver más características específicas, como el precio en monedas de varios países"
     },
     {
-        "id": 4,
+        "id": 5,
         "img": "/images/gamershop.png",
         "imgmobile": "/images/gamershopmobile.png",
         "title": "GamerShop",
         "subtitle": "E-commerce de juegos de PlayStation 4",
         "url": "https://gamershop.vercel.app",
         "description": "E-commerce de juegos de Play Station 4 desarrollado con React JS para el front y Firebase para el back. Realicé este sitio como proyecto final del curso de Front End de CoderHouse. El sitio cuenta con carrito de compras, manejo de stock desde Firebase y la posibilidad para los usuarios de generar órdenes de compra que llegarán a la Firestore Database"
-    },
-    {
-        "id": 5,
-        "img": "/images/tiagopzk.png",
-        "imgmobile": "/images/tiagopzkmobile.png",
-        "title": "Tiago PZK",
-        "subtitle": "Sitio web del cantante Tiago PZK",
-        "url": "https://tiago-pzk.vercel.app",
-        "description": "Réplica del sitio web oficial del cantante Tiago PZK desarrollado con Javascript. Realicé este proyecto como parte de mis prácticas iniciales en JS y SASS. El sitio cuenta varias secciones navegables, una lista de shows donde la información de cada uno es traída de un JSON simulando una API y widgets de Spotify y Youtube para mayor interactividad"
     }
+
 ]
