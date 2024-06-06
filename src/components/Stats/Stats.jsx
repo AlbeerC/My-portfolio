@@ -5,8 +5,8 @@ function Stats () {
     return (
         <section className="stats">
             <div className="stat first">
-                <h4>+1</h4>
-                <p>Año programando</p>
+                <h4>+2</h4>
+                <p>Años programando</p>
             </div>
             <div className="stat">
                 <h4>+12</h4>

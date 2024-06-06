@@ -1,6 +1,6 @@
 import './About.scss'
 import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaSass } from 'react-icons/fa'
-import { SiNextdotjs, SiFirebase, SiTailwindcss } from "react-icons/si";
+import { SiTypescript, SiFirebase, SiTailwindcss } from "react-icons/si";
 import { LuFigma } from "react-icons/lu";
 import { IoLogoJavascript } from "react-icons/io";
 
@@ -30,8 +30,8 @@ function About () {
                         <p>react js</p>
                     </div>
                     <div className="tec">
-                        <SiNextdotjs />
-                        <p>next js</p>
+                        <SiTypescript />
+                        <p>typescript</p>
                     </div>
                     <div className="tec">
                         <FaGitAlt />
