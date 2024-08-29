@@ -1,7 +1,12 @@
 import './ProjectsDetail.scss'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function ProjectsList ( {data} ) {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <section className="project">

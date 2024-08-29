@@ -16,6 +16,15 @@ function ProjectsList () {
             .finally(() => setLoading(false))
     }, [])
 
+    useEffect(() => {
+        if (!loading) {
+            const element = document.getElementById('projects');
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [loading]);
+
     if (loading) { return <Loading /> }
 
     return (
