@@ -19,6 +19,15 @@
     },
     {
         "id": 3,
+        "img": "/images/ktw.png",
+        "imgmobile": "/images/ktw-mobile.png",
+        "title": "Know the world",
+        "subtitle": "Aplicación de geografía",
+        "url": "https://know-the-world-three.vercel.app/",
+        "description": "Aplicación de geografía que consta de tres partes: Un mapa interactivo donde se puede hacer click en un país y ver información del mismo, una lista de tarjetas de cada país con información básica, y un quiz de preguntas y respuestas. Está desarrollada con React JS y usa apis y librerias para el mapa y la información."
+    },
+    {
+        "id": 4,
         "img": "/images/chatapp.png",
         "title": "Chat App",
         "imgmobile": "/images/chatappmobile.png",
@@ -27,22 +36,12 @@
         "description": "Chat a tiempo real desarrollado con React JS para el front y Firebase para el back. La prioridad en este proyecto fue la interactividad entre usuarios. Utilicé los servicios Auth y Firestore database de Firebase para la autenticación de usuarios y el almacenamiento y lógica de los mensajes. Los usuarios pueden registrarse o loguearse para interactuar con otros usuarios, enviar, editar y borrar mensajes."
     },
     {
-        "id": 4,
+        "id": 5,
         "img": "/images/coinview.png",
         "imgmobile": "/images/coinviewmobile.png",
         "title": "CoinView",
         "subtitle": "Mercado de criptomonedas a tiempo real",
         "url": "https://coinview-albeerc.vercel.app",
         "description": "Mercado de criptomonedas a tiempo real desarrollado con React JS para el front y la API de CoinGecko para traer toda la información de cada moneda. El sitio cuenta con una tabla de 100 criptomonedas con información básica, y cada una de ellas tiene un detalle donde se podrán ver más características específicas, como el precio en monedas de varios países"
-    },
-    {
-        "id": 5,
-        "img": "/images/gamershop.png",
-        "imgmobile": "/images/gamershopmobile.png",
-        "title": "GamerShop",
-        "subtitle": "E-commerce de juegos de PlayStation 4",
-        "url": "https://gamershop.vercel.app",
-        "description": "E-commerce de juegos de Play Station 4 desarrollado con React JS para el front y Firebase para el back. Realicé este sitio como proyecto final del curso de Front End de CoderHouse. El sitio cuenta con carrito de compras, manejo de stock desde Firebase y la posibilidad para los usuarios de generar órdenes de compra que llegarán a la Firestore Database"
     }
-
 ]
