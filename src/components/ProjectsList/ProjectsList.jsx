@@ -17,7 +17,7 @@ function ProjectsList () {
     }, [])
 
     useEffect(() => {
-        if (!loading) {
+        if (!loading && window.location.hash === '#projects') {
             const element = document.getElementById('projects');
             if (element) {
                 element.scrollIntoView({ behavior: 'smooth' });

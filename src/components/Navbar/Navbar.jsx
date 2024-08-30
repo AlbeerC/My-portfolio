@@ -10,10 +10,14 @@ function Navbar () {
         setShowMenu(!showMenu)
     }
 
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
     return (
         <header>
             <div className="nav-mobile">
-                <Link to='/'><h1>Mi portfolio</h1></Link>
+                <Link to='/' onClick={handleScrollToTop}><h1>Mi portfolio</h1></Link>
                 <button onClick={handleToggle}><FaBars className='hide toggle'/></button>
             </div>
             <nav className={showMenu ? 'show' : 'hide'}>
