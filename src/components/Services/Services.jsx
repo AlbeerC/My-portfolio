@@ -8,8 +8,8 @@ function Services () {
         <section className="services">
             <div className="service">
                 <IoDesktopSharp />
-                <h3>Aplicaciones Web Modernas</h3>
-                <p>Creación de aplicaciones web innovadoras utilizando tecnologías actuales como React, Next.js y otros frameworks modernos</p>
+                <h3>Aplicaciones Modernas</h3>
+                <p>Uso de las últimas tecnologías para asegurar que la web o app sea rápida, segura y funcional y fácil de usar</p>
             </div>
             <div className="service">
                 <FaUser />
@@ -18,8 +18,8 @@ function Services () {
             </div>
             <div className="service">
                 <FaExchangeAlt />
-                <h3>Integración de APIs</h3>
-                <p>Conexión segura y eficiente con APIs externas para obtener datos relevantes o funcionalidades adicionales.</p>
+                <h3>Integración de APIs y servicios</h3>
+                <p>Integración de servicios y herramientas externas para obtener datos relevantes o funcionalidades adicionales.</p>
             </div>
             <div className="service">
                 <FaRecycle />

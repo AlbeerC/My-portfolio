@@ -17,7 +17,7 @@ function Hero () {
                     <img src={gif} alt="gif of a man thinking in front a pc" />
                 </div>
                 <div className="bottom">
-                    <h4>Desarrollador Front-end</h4>
+                    <h4>Desarrollador Web y Mobile</h4>
                     <button><a href='#projects'>Ver proyectos</a></button>
                 </div>
             </article>

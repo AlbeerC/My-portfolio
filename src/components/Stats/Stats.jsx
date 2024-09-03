@@ -14,11 +14,11 @@ function Stats () {
             </div>
             <div className="stat">
                 <h4>+10</h4>
-                <p>Tecnologías dominadas</p>
+                <p>Tecnologías utilizadas</p>
             </div>
             <div className="stat">
                 <h4>+4</h4>
-                <p>Certificaciones de cursos</p>
+                <p>Certificaciones y cursos</p>
             </div>
         </section>
     )

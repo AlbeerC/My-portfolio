@@ -43,5 +43,14 @@
         "subtitle": "Mercado de criptomonedas a tiempo real",
         "url": "https://coinview-albeerc.vercel.app",
         "description": "Mercado de criptomonedas a tiempo real desarrollado con React JS para el front y la API de CoinGecko para traer toda la información de cada moneda. El sitio cuenta con una tabla de 100 criptomonedas con información básica, y cada una de ellas tiene un detalle donde se podrán ver más características específicas, como el precio en monedas de varios países"
+    },
+    {
+        "id": 6,
+        "img": "/images/journeylondon.png",
+        "imgmobile": "/images/journeylondonmobile.png",
+        "title": "JourneyLondon",
+        "subtitle": "Sitio web de gimnasio",
+        "url": "https://journey-london.vercel.app/",
+        "description": "Sitio web completo para un gimnasio que ofrece una vista detallada de sus servicios y planes de suscripción. Utilizando HTML, CSS y JavaScript, el sitio proporciona una experiencia de usuario fluida y moderna."
     }
 ]
