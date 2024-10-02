@@ -9,8 +9,8 @@ function About () {
     return (
         <section className="about" id='aboutme'>
             <h2 className='section-title'>Sobre mi</h2>
-            <p>Mi nombre es Alberto Caminos. Soy un desarrollador web y móvil de 21 años de Buenos Aires, Argentina. Me especializo en el área del front-end creando  webs y aplicaciones que no solo funcionan bien, sino que también ofrecen una experiencia de usuario intuitiva y agradable.
-            Actualmente estoy cursando la carrera Desarrollador Web Full Stack brindada por la Cámara de Empresas del Polo Informático de Tandil</p>
+            <p>Mi nombre es Alberto Caminos. Soy un desarrollador web Argentino de 21 años. Me especializo en el área del front-end creando  webs y aplicaciones que no solo funcionan bien, sino que también ofrecen una experiencia de usuario intuitiva y agradable.
+            Además, estoy mejorando mis habilidades en algoritmos y estructuras de datos, buscando optimizar el rendimiento y eficiencia de las soluciones que desarrollo, especialmente en proyectos complejos donde estos conocimientos son clave.</p>
             <article className='technologies'>
                 <h3>Tecnologías que uso</h3>
                 <div className='list'>
