@@ -3,9 +3,14 @@
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 4rem 8rem .5rem 8rem;
+    padding: 4rem 7rem .5rem 7rem;
     color: #ffffff;
     font-size: 1.7rem;
+
+    @media (min-width: 1401px) {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
 
     @include responsive(tablet) {
         flex-direction: column;

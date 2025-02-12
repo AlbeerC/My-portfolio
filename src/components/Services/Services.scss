@@ -5,7 +5,6 @@
     grid-template-columns: repeat(4, 1fr);
     align-items: stretch;
     gap: 3rem;
-    padding: 5rem 8rem;
     background-color: $bgLight;
 
     @include responsive(pc) {

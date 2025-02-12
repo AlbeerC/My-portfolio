@@ -2,5 +2,8 @@
 
 .projects {
     background-color: $bgDark;
-    padding: 5rem 0;
+
+    .mySwiper {
+        margin: 0;
+    }
 }

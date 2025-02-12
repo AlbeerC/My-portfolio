@@ -4,7 +4,7 @@
     background-color: $bgDark;
     text-align: center;
     color: #ffffff;
-    padding: 5rem 0;
+    width: 100%;
 
     @include responsive(pc) {
         height: auto;
@@ -16,7 +16,6 @@
     }
 
     p {
-        max-width: 70%;
         margin: 0 auto;
         font-size: 1.9rem;
         line-height: 3rem;
@@ -25,6 +24,10 @@
             max-width: 90%;
             font-size: 1.7rem;
         }
+    }
+
+    .about-text {
+        text-align: justify;
     }
 
     .technologies {
@@ -36,7 +39,6 @@
             gap: 2rem;
             margin: 0 auto;
             justify-content: center;
-            max-width: 75%;
 
             @include responsive(pc) {
                 grid-template-columns: repeat(4, 1fr);

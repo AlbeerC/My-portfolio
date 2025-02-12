@@ -37,3 +37,16 @@ a {
 section[id] {
     scroll-margin-top: 5rem;
 }
+section {
+    padding: 5rem 7rem;
+
+    @media (min-width: 1401px) {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+    @include responsive(tablet) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

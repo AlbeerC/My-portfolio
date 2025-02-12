@@ -11,14 +11,12 @@
     background-size: cover;
     background-position: center center;
     height: 88vh;
-    padding: 5rem 7rem;
 
     @include responsive(pc) {
         justify-content: center;
     }
 
     .left {
-        padding-left: 1rem;
 
         .top {
             display: flex;
@@ -110,7 +108,7 @@
     .right {
 
         img {
-            width: 50rem;
+            width: 45rem;
             height: auto;
             padding-top: 6rem;
             transition: all ease 1s;

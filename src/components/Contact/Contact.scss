@@ -1,11 +1,9 @@
 @import '../../scss/variables';
 
 .contact {
-    padding: 5rem 0;
     background-color: $bgDark;
     text-align: center;
     color: #ffffff;
-    max-width: 60%;
     margin: 0 auto;
 
     @include responsive(tablet) {
@@ -23,10 +21,10 @@
 
     .cards {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: stretch;
-        flex-wrap: wrap;
         gap: 5rem;
+        flex-wrap: wrap;
         margin-top: 3rem;
 
         .card {
@@ -49,10 +47,12 @@
 
             h4 {
                 cursor: default;
+                color: #ffffff;
             }
 
             p {
                 padding-top: 1rem;
+                color: #ffffff;
             }
         }
     }
