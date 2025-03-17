@@ -9,7 +9,7 @@ function Contact () {
             <h3>Transformando ideas en realidad: comencemos a colaborar.</h3>
             <div className="cards">
                 <div className="card">
-                    <a href="https://www.linkedin.com/in/alberto-caminos-b73b0a190/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/alberto-caminos/" target="_blank" rel="noreferrer">
                         <FaLinkedin />
                         <h4>Linkedin</h4>
                         <p>/alberto-caminos</p>
